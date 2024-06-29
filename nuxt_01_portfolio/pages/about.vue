@@ -1,9 +1,9 @@
 <template>
   <div>about me</div>
 
-  <div>
+  <!-- <div>
     <button @click="enableCustomLayout">Update layout</button>
-  </div>
+  </div> -->
 </template>
 
 <script setup>
@@ -11,8 +11,8 @@
 //   layout: 'another',
 // });
 
-// layouts#changing-the-layout-dynamically
-function enableCustomLayout() {
-  setPageLayout('another');
-}
+// // layouts#changing-the-layout-dynamically
+// function enableCustomLayout() {
+//   setPageLayout('another');
+// }
 </script>
