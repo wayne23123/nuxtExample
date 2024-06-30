@@ -25,13 +25,13 @@
 
     <!-- <slot /> -->
 
-    <main class="p-2">
+    <main class="p-2 mt-10">
       <slot />
     </main>
   </div>
 </template>
 
-<script>
+<script setup>
 // /docs/getting-started/seo-meta#dynamic-title
 useHead({
   titleTemplate: '%s - wayne',
