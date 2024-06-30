@@ -15,4 +15,8 @@
 // function enableCustomLayout() {
 //   setPageLayout('another');
 // }
+
+useHead({
+  title: 'about',
+});
 </script>

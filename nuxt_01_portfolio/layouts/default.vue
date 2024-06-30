@@ -30,3 +30,29 @@
     </main>
   </div>
 </template>
+
+<script>
+// /docs/getting-started/seo-meta#dynamic-title
+useHead({
+  titleTemplate: '%s - wayne',
+  // %s -> replaced by the individual title of every page
+  link: [
+    {
+      rel: 'preconnect',
+      href: 'https://fonts.googleapis.com',
+    },
+    {
+      rel: 'stylesheet',
+      href: 'https://fonts.googleapis.com/css2?family=Roboto&display=swap',
+      crossorigin: '',
+    },
+  ],
+  // /docs/getting-started/seo-meta#external-css
+});
+</script>
+
+<style>
+body {
+  font-family: 'Roboto';
+}
+</style>
