@@ -1,4 +1,7 @@
 <template>
+  <article>
+    <ContentDoc />
+  </article>
   <div>inside a blog</div>
   <div>route.params.id @@@ {{ route.params.id }}</div>
 </template>
