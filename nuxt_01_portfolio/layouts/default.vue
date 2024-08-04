@@ -32,6 +32,12 @@
 </template>
 
 <script setup>
+// 5-22
+const colorMode = useColorMode()
+// console.log('colorMode.preference', colorMode.preference) //system
+// colorMode.preference 可讀、可寫
+// colorMode.preference = 'light' //light
+
 // /docs/getting-started/seo-meta#dynamic-title
 useHead({
   titleTemplate: '%s - wayne',
@@ -54,5 +60,9 @@ useHead({
 <style>
 body {
   font-family: 'Roboto';
+}
+
+body {
+  @apply bg-gray-200 dark:bg-gray-900 text-gray-700 dark:text-gray-300;
 }
 </style>
